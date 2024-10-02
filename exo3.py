@@ -1,3 +1,7 @@
-age = 23
+a = "Bleu"
 
-print(age)
+b = "Rouge"
+
+a, b = b, a
+
+print("a = ", a, "b = ", b)
