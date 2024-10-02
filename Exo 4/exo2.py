@@ -1,5 +1,7 @@
-def bonjour(nom):
-    print(f"Bonjour {nom}")
+dictionnaire = {
+    "nom" : "Sebastien",
+    "age" : "23",
+    "Ville" : "Montpellier"
+}
 
-bonjour("David")
-
+print(dictionnaire['nom'])
