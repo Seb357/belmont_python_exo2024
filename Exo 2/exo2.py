@@ -1,3 +1,2 @@
-nom = "Rida"
-
-print(nom, "met un 3 points dans le dernier quart temps")
+for a in range(1, 6):
+    print(a)    
