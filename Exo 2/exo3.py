@@ -1,7 +1,5 @@
-a = "Bleu"
+somme = 0
 
-b = "Rouge"
-
-a, b = b, a
-
-print("a = ", a, "b = ", b)
+for i in range(2,101, 2): 
+    somme += i
+print(somme)
